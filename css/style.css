@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html, body{
+    height: 100%;
+}
+
 .center{
     width: 1280px;
     margin:0 auto;
@@ -25,4 +29,15 @@
     background-image: url('../images/header_bg.png');
     background-size: cover;
     background-position: center;
+ }
+
+.container-banner > .center{
+    height: 100%;
 }
+
+ .form{
+     width: 400px;
+     height: 100%;
+     float: right;
+     background-color: white;
+ }
