@@ -36,8 +36,11 @@ html, body{
 }
 
  .form{
-     width: 400px;
-     height: 100%;
+     width: 370px;
+     height: calc(100% + 30px);
      float: right;
+     position: relative;
+     top: -15px;
      background-color: white;
+     border: 8px solid #ccc;
  }
