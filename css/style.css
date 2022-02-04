@@ -74,7 +74,7 @@ html, body{
 }
 
  .input-container input[type=text]{
-     margin-top: 8px;
+     margin-top: 6px;
     width: 324px;
     height: 45px;
     border: 1px solid #ccc;
@@ -87,7 +87,16 @@ html, body{
  .form input[type=submit]{
      color: white;
      font-size: 25px;
-     width: 260px;
+     width: 250px;
      height: 46px;
      background-color: #363A6D;
+     border-top: 0;
+     border-right: 0;
+     border-left: 0;
+     cursor: pointer;
+     border-bottom: 5px solid #4A5097;
+ }
+
+ .form input[type=submit]:hover{
+     background-color: #323665;
  }
