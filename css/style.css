@@ -54,6 +54,24 @@ html, body{
 
  .form h2{
      font-weight: normal;
-     color: #9999;
+     color: #999999;
      font-size: 19px;
+ }
+
+ .input-container{
+     margin-top: 20px;
+ }
+
+ .input-container span{
+     display: inline-block;
+     width: 100%;
+     color: #BBBBBB;
+     font-size: 17px;
+ }
+
+ .input-container input[type=text]{
+     margin-top: 8px;
+    width: 324px;
+    height: 55px;
+    border: 1px solid #ccc;
  }
