@@ -122,3 +122,20 @@ html, body{
      margin-top: 18px;
      color: white;
  }
+
+ .container-2{
+     padding: 60px 0;
+     background-color: #DDDDDD;
+     text-align: center;
+ }
+
+ .container-2 h2{
+     font-weight: normal;
+ }
+
+ .container-2 p{
+     width: 650px;
+     margin: 15px 0;
+     display: inline-block;
+     text-align: justify;
+ }
