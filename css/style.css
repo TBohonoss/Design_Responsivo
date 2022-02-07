@@ -15,7 +15,7 @@ html, body{
 }
 
 .center{
-    width: 1280px;
+    width: 1200px;
     margin:0 auto;
 }
 
@@ -99,4 +99,22 @@ html, body{
 
  .form input[type=submit]:hover{
      background-color: #323665;
+ }
+
+ .container-list{
+     padding: 30px;
+     margin-top: 40px;
+     float:left;
+     width: 619px;
+     height: 270px;
+     background-color: rgba(33,35,67,0.7);
+ }
+
+ .container-list ul{
+     list-style-position: inside;
+ }
+
+ .container-list ul li{
+     margin-top: 18px;
+     color: white;
  }
