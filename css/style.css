@@ -124,7 +124,7 @@ html, body{
  }
 
  .container-2{
-     padding: 60px 0;
+     padding: 40px 0;
      background-color: #DDDDDD;
      text-align: center;
  }
@@ -139,3 +139,14 @@ html, body{
      display: inline-block;
      text-align: justify;
  }
+
+ .arrow{
+     position: relative;
+     top: 60px;
+     left: 50%;
+     margin-right: -20px;
+     width: 40px;
+     height: 40px;
+     background-image: url(../images/arrow.png);
+     background-size: 100% 100%;
+ }    
