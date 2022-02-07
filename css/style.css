@@ -31,7 +31,7 @@ html, body{
 
 .container-banner{
     width: 100%;
-    height: 457px;
+    height: 557px;
     background-image: url('../images/header_bg.png');
     background-size: cover;
     background-position: center;
@@ -43,7 +43,7 @@ html, body{
 
  .form{
      padding: 10px;
-     width: 370px;
+     width: 400px;
      height: calc(100% + 30px);
      float: right;
      position: relative;
@@ -59,7 +59,7 @@ html, body{
  .form h2{
      font-weight: normal;
      color: #999999;
-     font-size: 19px;
+     font-size: 21px;
  }
 
  .input-container{
@@ -74,13 +74,17 @@ html, body{
  }
 
 .form p{
-    margin: 20px 0;
+    display: inline-block;
+	width: 100%;
+	color: #BBBBBB;
+	font-size: 17px;
+	margin:20px 0;
 }
 
  .input-container input[type=text]{
-     margin-top: 6px;
-    width: 324px;
-    height: 45px;
+     margin-top: 8px;
+    width: 344px;
+    height: 55px;
     border: 1px solid #ccc;
  }
 
@@ -91,8 +95,9 @@ html, body{
  .form input[type=submit]{
      color: white;
      font-size: 25px;
-     width: 250px;
-     height: 46px;
+     width: 280px;
+     height: 56px;
+     display: inline-block;
      background-color: #363A6D;
      border-top: 0;
      border-right: 0;
@@ -134,7 +139,7 @@ html, body{
  }
 
  .container-2 p{
-     width: 650px;
+     width: 698px;
      margin: 15px 0;
      display: inline-block;
      text-align: justify;
