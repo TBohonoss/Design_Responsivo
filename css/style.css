@@ -48,8 +48,12 @@ html, body{
      float: right;
      position: relative;
      top: -15px;
+     border-width: 12px;
+     border-color: rgba(120,120,120,0.5);
+     border-style: solid;
      background-color: white;
-     border: 8px solid #ccc;
+    background-clip: padding-box;
+    /*background-origin tem o mesmo conceito mas serve para imagens.*/
  }
 
  .form h2{
